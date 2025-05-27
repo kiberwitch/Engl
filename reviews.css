@@ -1,0 +1,450 @@
+
+aside {
+   width: 293px;
+   height: 1111px;
+   background-color: #161616;
+   color: #ffffff;
+ }
+ 
+ .li-header {
+   width: 300px;
+   margin-left: 100px;
+   padding: 15px 20px;
+   cursor: pointer; /* Курсор-указатель при наведении */
+   transition: all 0.3s ease; /* Плавный эффект */
+   border: 1px solid transparent; /* Прозрачная обводка (чтобы не прыгало при hover) */
+ }
+ 
+ .li-header:hover {
+   border-radius: 40px;
+   background-color: rgb(247, 247, 247); /* Светло-красный фон (опционально) */
+   color: #161616;
+ }
+ 
+ aside p {
+   text-align: center;
+   margin-top: 100px;
+   font-size: 30px;
+   font-weight: bold;
+ }
+
+
+ .header-schools-course {
+   width: 1920px;
+   padding-left: 250px;
+ }
+ 
+ .header-ico {
+   padding-top: 70px;
+   padding-left: 100px;
+ }
+
+ aside p {
+   text-align: center;
+   margin-top: 100px;
+   font-size: 30px;
+   font-weight: bold;
+ }
+ 
+ .header-title {
+   display: flex;
+   flex-direction: column;
+   padding: 70px 120px;
+   color: red;
+   font-size: 50px;
+   font-weight: 900;
+ }
+ 
+ .header-title h2 {
+   color: #cdcdcd;
+   font-size: 30px;
+ }
+ 
+ .header-title span {
+   color: black;
+   font-size: 70px;
+   font-weight: 900;
+ }
+ 
+ .header-title p {
+   font-family: "Montserrat";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 22px;
+   line-height: 32px;
+   font-variant: small-caps;
+   color: rgba(37, 36, 36, 0.8);
+ }
+  
+
+ 
+.reviews-tab {
+   display: flex;
+   justify-content: space-between;
+ 
+   width: 1200px;
+   margin: 0 auto;
+   margin-top: 100px;
+ }
+ 
+ .reviews h1 {
+   font-size: 70px;
+   text-transform: uppercase;
+   font-weight: 900;
+ }
+ 
+ .reviews span {
+   color: red;
+ }
+ 
+ .reviews p {
+   margin: 10px;
+   color: #252424;
+   font-size: 22px;
+ }
+ 
+ .reviews-items {
+   display: flex;
+   flex-direction: column;
+ }
+ 
+ .tabl-container {
+   flex: 1;
+   width: 350px;
+   height: 300px;
+   background-color: white;
+   border-radius: 30px;
+   flex-shrink: 0;
+   margin-top: 10px;
+ }
+ 
+ .tabs {
+   width: 350px;
+   margin: 0 auto 24px auto;
+   border-radius: 24px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+   background: none;
+   padding: 0;
+ }
+ .tab {
+   display: block;
+   width: 100%;
+   padding: 24px 0 18px 0;
+   text-align: center;
+   font-size: 1.3rem;
+   font-weight: bold;
+   border-radius: 24px 24px 0 0;
+   background: #fff;
+   color: #222;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+   margin-bottom: 0;
+ }
+ .tab.inactive {
+   background: #f2f2f2;
+   color: #888;
+   font-weight: 600;
+   border-radius: 0 0 24px 24px;
+   box-shadow: none;
+   margin-top: -8px;
+   padding: 18px 0 22px 0;
+ }
+ 
+ .search-block {
+   width: 350px;
+   margin: 0 auto;
+   background: #fff;
+   border-radius: 24px;
+   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+   padding: 32px 24px 32px 24px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 24px;
+ }
+ .search-input-wrap {
+   width: 100%;
+   position: relative;
+ }
+ .search-input {
+   width: 100%;
+   padding: 16px 48px 16px 18px;
+   border: 2px solid #ededed;
+   border-radius: 16px;
+   font-size: 1.1rem;
+   color: #333;
+   background: #fafafa;
+   outline: none;
+   transition: border 0.2s;
+ }
+ .search-input:focus {
+   border: 2px solid #e53935;
+ }
+ .search-icon {
+   position: absolute;
+   right: 18px;
+   top: 50%;
+   transform: translateY(-50%);
+   color: #e53935;
+   font-size: 1.4rem;
+   pointer-events: none;
+ }
+ .review-btn {
+   width: 100%;
+   padding: 14px 0;
+   border: 2px solid #e53935;
+   border-radius: 32px;
+   background: #fff;
+   color: #222;
+   font-size: 1.1rem;
+   font-weight: 600;
+   cursor: pointer;
+   transition: background 0.2s, color 0.2s;
+   margin-top: 8px;
+ }
+ .review-btn:hover {
+   background: #e53935;
+   color: #fff;
+ }
+
+ 
+.download {
+width: 800px;
+margin: 0 auto;
+ }
+ 
+
+.review-form {
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  max-width: 860px;
+  margin-top: 40px;
+  margin-left: 350px;
+  margin-bottom: 200px;
+  padding: 36px 36px 28px 36px;
+}
+
+.review-form__title {
+  font-size: 2.2rem;
+  font-weight: 900;
+  margin: 0 0 28px 0;
+  letter-spacing: -1px;
+}
+
+.review-form__title-red {
+  color: #E53935;
+  font-weight: 900;
+  margin-right: 8px;
+}
+
+
+.review-form__row {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 22px;
+}
+
+.review-form__field {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-form__field--school {
+  min-width: 220px;
+  position: relative;
+}
+
+.review-form__label {
+  font-size: 0.97rem;
+  color: #888;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.review-form__input {
+  border: 1.5px solid #EFEFEF;
+  border-radius: 12px;
+  padding: 12px 16px;
+  font-size: 1.08rem;
+  color: #222;
+  background: #fafafa;
+  transition: border-color 0.2s;
+  outline: none;
+}
+
+.review-form__input:focus {
+  border-color: #e53935;
+}
+
+.review-form__school-input-wrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.review-form__search-btn {
+  background: none;
+  border: none;
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-form__field--full {
+  margin-bottom: 26px;
+}
+
+.review-form__textarea {
+  border: 1.5px solid #EFEFEF;
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 1.09rem;
+  color: #222;
+  background: #fafafa;
+  min-height: 100px;
+  resize: none;
+  transition: border-color 0.2s;
+  outline: none;
+}
+
+.review-form__textarea:focus {
+  border-color: #e53935;
+}
+
+.review-form__stars {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 28px 0 24px 0;
+  gap: 8px;
+}
+
+.review-form__star-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+  font-size: 1.06rem;
+}
+
+.review-form__star-label input[type="radio"] {
+  display: none;
+}
+
+.review-form__star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+  transition: transform 0.15s;
+}
+
+.review-form__star svg {
+  display: block;
+}
+
+.review-form__star--active svg polygon {
+  fill: #E53935;
+  stroke: #E53935;
+}
+
+.review-form__star-text {
+  color: #888;
+  font-size: 1.01rem;
+  margin-top: 2px;
+}
+
+.review-form__star-label input[type="radio"]:checked + .review-form__star svg polygon,
+.review-form__star-label:hover .review-form__star svg polygon {
+  fill: #E53935;
+  stroke: #E53935;
+}
+
+.review-form__star-label input[type="radio"]:checked + .review-form__star ~ .review-form__star-text {
+  color: #E53935;
+  font-weight: 600;
+}
+
+.review-form__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 18px;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.review-form__agree {
+  display: flex;
+  align-items: center;
+  font-size: 0.97rem;
+  color: #888;
+  user-select: none;
+}
+
+.review-form__agree input[type="checkbox"] {
+  display: none;
+}
+
+.review-form__agree-custom {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  border: 2px solid #E53935;
+  background: #fff;
+  margin-right: 8px;
+  position: relative;
+  display: inline-block;
+}
+
+.review-form__agree input[type="checkbox"]:checked + .review-form__agree-custom {
+  background: #E53935;
+  border-color: #E53935;
+}
+
+.review-form__agree input[type="checkbox"]:checked + .review-form__agree-custom:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 4px;
+  height: 8px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.review-form__agree-bold {
+  font-weight: 700;
+  color: #222;
+  margin: 0 2px;
+}
+
+.review-form__submit {
+  background: #E53935;
+  color: #fff;
+  border: none;
+  border-radius: 24px;
+  font-size: 1.16rem;
+  font-weight: 700;
+  padding: 12px 38px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-left: auto;
+  box-shadow: 0 2px 8px rgba(229,57,53,0.08);
+}
+
+.review-form__submit:hover,
+.review-form__submit:focus {
+  background: #d32f2f;
+}
