@@ -48,6 +48,7 @@ table {
 }
 
 body {
+  width: 1920px;
   background-color: #8d8b8b2a;
 }
 
@@ -79,7 +80,7 @@ aside {
   width: 293px;
   height: 1111px;
   position: absolute;
-  background-color: black;
+  background-color: #161616;
   color: #ffffff;
 }
 
@@ -144,7 +145,7 @@ aside p {
 
 .top-10-school-header h1 {
   font-size: 70px;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .top-10-school-header span {
@@ -308,7 +309,7 @@ td {
   top: 100px;
   left: 400px;
   font-size: 70px;
-  font-weight: bolder;
+  font-weight: 900;
   color: white;
 }
 
@@ -347,7 +348,7 @@ td {
 .courses h1 {
   font-size: 70px;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .courses p {
@@ -441,7 +442,7 @@ td {
 .reviews h1 {
   font-size: 70px;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .reviews span {
@@ -565,7 +566,7 @@ td {
 .experts h1 {
   font-size: 70px;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .experts span {
@@ -600,7 +601,7 @@ td {
 .choice-course h1 {
   font-size: 70px;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .choice-course span {
@@ -622,7 +623,7 @@ td {
 .Trial h1 {
   font-size: 70px;
   text-transform: uppercase;
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .Trial span {
