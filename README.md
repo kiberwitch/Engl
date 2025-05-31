@@ -39,6 +39,7 @@ git clone https://github.com/ваш-username/english-courses-website.git
 - `courses.html` - программы курсов.
 
 ## Скриншоты
-(Добавьте скриншоты основных страниц)
-
+[(Главная страница)](https://i.postimg.cc/CMbTP18S/1.png)
+[(Топ 10 школ в Москве)](https://i.postimg.cc/J4mw9L3J/2.png)
+[(Школы и курсы)](https://i.postimg.cc/KvNXbHQW/3.png)
 ---
