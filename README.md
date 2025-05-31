@@ -36,13 +36,13 @@ git clone https://github.com/ваш-username/english-courses-website.git
 
 ## Скриншоты
 
-<img src="https://i.postimg.cc/CMbTP18S/1.png" alt="Главная страница" width="600"/>
+<img src="https://i.postimg.cc/CMbTP18S/1.png" alt="Главная страница" width="800"/>
 Рис. 1: Главная страница сайта
 
-<img src="https://i.postimg.cc/J4mw9L3J/2.png" alt="Страница курсов" width="600"/>
+<img src="https://i.postimg.cc/J4mw9L3J/2.png" alt="Страница курсов" width="800"/>
 Рис. 2: Топ 10 школ в Москве
 
-<img src="https://i.postimg.cc/KvNXbHQW/3.png" alt="Контакты" width="600"/>
+<img src="https://i.postimg.cc/KvNXbHQW/3.png" alt="Контакты" width="800"/>
 Рис. 3: Школы и курсы
 
 ---
