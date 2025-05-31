@@ -46,3 +46,4 @@ git clone https://github.com/ваш-username/english-courses-website.git
 Рис. 3: Школы и курсы
 
 ---
+# https://kiberwitch.github.io/English-courses-website/ 
